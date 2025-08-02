@@ -518,6 +518,8 @@ box-shadow: 0 0 25px var(--main-color);
 
 .contacto{
     background-color: var(--bg-color);
+
+    
 }
 
 .contacto h2{
@@ -536,6 +538,7 @@ box-shadow: 0 0 25px var(--main-color);
 
 .contacto form .caja-input{
     display: flex;
+    margin-bottom: 14px;
     justify-content: center;
     flex-wrap: wrap;
 }
@@ -548,7 +551,7 @@ box-shadow: 0 0 25px var(--main-color);
     background: var(--second-bg-color);
     border-radius: 2rem;
     border: 2px solid var(--main-color);
-    margin: 1,5rem 0;
+    margin-bottom: 14px;;
     resize: none;
 }
 
