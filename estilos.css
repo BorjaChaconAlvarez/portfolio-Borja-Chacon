@@ -27,7 +27,9 @@ body{
     color: var(--text-color);
 
 }
-
+ .enlace {
+    color :var(--main-color) !important;
+}
 .header{
     position: fixed;
     top: 0;
@@ -219,7 +221,7 @@ span{
 position: relative;
 }
 .animacion-texto span::before{
-    content: "Desarrollador Full Stack";
+    content: "Full Stack Developer";
     color: var(--main-color);
     animation: words 20s infinite;
 }
@@ -242,24 +244,25 @@ position: relative;
 @keyframes words{
     0%,
     20%{
-        content : "Desarrollador Backend";
+        content : "Full Stack Developer";
     }   
     21%,
     40%{
-        content: "Desarrollador Frontend";
+        content: "Mobile Developer";
     }
     41%,
     60%{
-        content : "Desarrollador Android";
+        content : "Software Developer";
     }
     61%,
     80%{
-        content : "Desarrollador Software"
+        content : "Future Software Engineer";
     }
     81%,
     100%{
-        content: "Hacker Ético";
+        content : "A Computer Engineering Student";
     }
+ 
 }
 
 @keyframes typing{
